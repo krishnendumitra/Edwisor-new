@@ -1,0 +1,522 @@
+:root {
+  font-size: 20px;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #35eea4;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 5vw;
+  display: block;
+}
+
+.banner .card {
+  background-image: url("images/landing_slider_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: auto;
+  margin-bottom: 10px;
+  border: 1px solid #2c2c2c;
+  border-radius: 10px;
+  box-shadow: 8px 3px 25px 2px #35eea4;
+  display: block;
+}
+.banner .card .heading {
+  color: #35eea4;
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  padding: 40px;
+}
+.banner .card .sub-heading {
+  color: #35eea4;
+  font-family: "Playfair Display", serif;
+  font-size: 21px;
+  margin: 0;
+  padding: 0 30px 30px;
+}
+.banner .card .sub-heading button {
+  background: none;
+  border: none;
+  border-radius: 5px;
+  color: #35eea4;
+  font-family: "Istok Web", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  padding: 15px;
+  text-transform: uppercase;
+  transition: shadow 0.3s linear 0.1s;
+}
+.banner .card .sub-heading button:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 20px 0 #35eea4;
+}
+
+@media screen and (min-width: 768px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+  .paragraph_image {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #536dfe;
+    border-radius: 10px;
+  }
+  .image {
+    display: flex;
+    width: 40%;
+    padding-top: 8%;
+    height: 70%;
+  }
+  .my-image {
+    border: 1px solid #35eea4;
+    border-radius: 5px;
+    box-shadow: 20px 3px 20px 2px #2c2c2c;
+    position: centre;
+    width: 80%;
+    height: 70%;
+  }
+
+  .paragraph {
+    color: black;
+    font-family: "Istok Web", sans-serif;
+    padding: 5vw 5vw 5vw 3vw;
+    width: 50%;
+    display: block;
+  }
+
+  .hobbies_interest {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #ff5252;
+    border-radius: 10px;
+    border: 1px;
+  }
+  #hobb {
+    text-align: center;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    font-size: 1rem;
+    margin: 2% 75% 0% 2%;
+    border-radius: 10px;
+    border: 1px;
+  }
+  .hobby_items {
+    display: flex;
+  }
+  .pics {
+    text-align: center;
+     
+  }
+  .text {
+    text-align: center;
+  }
+
+  .ReadingBooks {
+    width: 25%;
+    margin: 5% 5% 5% 5%;
+  }
+
+  #hobb1 {
+    text-align: center;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    font-size: 1.1rem;
+    margin: 0% 55% 0% 2%;
+    border-radius: 10px;
+    border: 1px;
+  }
+  .professional {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #00e676;
+    border-radius: 10px;
+    border: 1px;
+  }
+  .hilight {
+    text-align: center;
+    text-decoration: fuchsia;
+    text-shadow: rgb(241, 240, 255);
+    font-family: "Playfair Display", serif;
+    font-size: 2.3rem;
+    box-shadow: 2px 3px 20px 2px #2c2c2c;
+    margin: 2% 55% 0% 2%;
+    border-radius: 10px;
+    border: 1px;
+  }
+  .paragraph1 {
+    text-align: left;
+    color: #2c2c2c;
+    font-family: "Istok Web", sans-serif;
+    padding: 0vw 5vw 5vw 1vw;
+    width: 90%;
+    border-radius: 10px;
+  }
+  .paragraph2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    color: #2c2c2c;
+    font-family: "Istok Web", sans-serif;
+    padding: 0vw 5vw 2vw 1vw;
+    width: 90%;
+  }
+  .button {
+    border-radius: 30px;
+    background-color:#ffffff;
+    text-decoration: none;
+    text-align: center;
+    color: #35eea4;
+    font-family: "Istok Web", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 5;
+    margin-top: 30%;
+    height: 50%;
+    width: 100%;
+  }
+  .writting {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 60%;
+    margin-right: 20%;
+  }
+  .ReadingBooks:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  .icon-group {
+    margin-top: 1vw;
+    padding-left: 35vw;
+  }
+  .icon-group .icon {
+    margin-right: 1vw;
+    width: 3vw;
+  }
+
+  .icon-group .icon:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 767px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .paragraph_image {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1b5e20;
+    border-radius: 10px;
+  }
+  .image {
+    display: flex;
+    width: 100%;
+    padding-top: 8%;
+    order: -1;
+    margin-left: 15%;
+  }
+  .my-image {
+    border: 1px solid #35eea4;
+    border-radius: 5px;
+    box-shadow: 20px 3px 20px 2px #2c2c2c;
+    position: centre;
+    width: 80%;
+    height: 90%;
+  }
+
+  .paragraph {
+    color: white;
+    font-family: "Istok Web", sans-serif;
+    padding: 5vw 5vw 5vw 5vw;
+    width: 90%;
+    display: block;
+  }
+  .hobbies_interest {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #00bcd4;
+    border-radius: 10px;
+    border: 1px;
+  }
+  #hobb {
+    text-align: center;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px;
+  }
+
+  #hobb1 {
+    text-align: center;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px;
+  }
+  .hobby_items {
+    display: flex;
+    margin: 0% 5% 2% 1%;
+  }
+
+  .ReadingBooks {
+    width: 25%;
+    margin: 5% 5% 5% 5%;
+  }
+
+  .text {
+    text-align: center;
+  }
+  .pics {
+    text-align: center;
+  }
+  .professional {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #795548;
+    border-radius: 10px;
+    border: 1px;
+  }
+  .hilight {
+    text-align: center;
+    text-decoration: fuchsia;
+    text-shadow: rgb(241, 240, 255);
+    font-family: "Playfair Display", serif;
+    font-size: 2.3rem;
+    box-shadow: 2px 3px 20px 2px #2c2c2c;
+    border-radius: 10px;
+    border: 1px;
+  }
+  .paragraph1 {
+    text-align: left;
+    color: white;
+    font-family: "Istok Web", sans-serif;
+    padding: 0vw 5vw 5vw 1vw;
+    width: 90%;
+
+    border-radius: 10px;
+  }
+  .paragraph2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    color: #2c2c2c;
+    font-family: "Istok Web", sans-serif;
+    padding: 0vw 5vw 2vw 1vw;
+    width: 90%;
+  }
+  .button {
+    background-color:#ffffff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+    color: #35eea4;
+    font-family: "Istok Web", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 5;
+    transition: shadow 0.3s linear 0.1s;
+    margin-top: 30%;
+    height: 50%;
+    width: 100%;
+  }
+  .writting {
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin-right: 20%;
+  }
+  .icon-group {
+    margin-top: 1vw;
+    padding-left: 32vw;
+  }
+  .icon-group .icon {
+    margin-right: 1vw;
+    width: 5vw;
+  }
+
+  .icon-group .icon:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .paragraph_image {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #4caf50;
+    border-radius: 10px;
+  }
+  .image {
+    display: flex;
+    width: 100%;
+    padding-top: 8%;
+    order: -1;
+    margin-left: 15%;
+  }
+  .my-image {
+    border: 1px solid #35eea4;
+    border-radius: 5px;
+    box-shadow: 20px 3px 20px 2px #2c2c2c;
+    position: centre;
+    width: 80%;
+    height: 90%;
+  }
+
+  .paragraph {
+    color: #2c2c2c;
+    font-family: "Istok Web", sans-serif;
+    padding: 5vw 5vw 5vw 5vw;
+    width: 90%;
+    display: block;
+  }
+  .hobbies_interest {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #9c27b0;
+    border-radius: 10px;
+    border: 1px;
+  }
+  #hobb {
+    text-align: center;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px;
+  }
+
+  #hobb1 {
+    text-align: center;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px;
+  }
+  .hobby_items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0% 5% 2% 1%;
+  }
+
+  .ReadingBooks {
+    width: 100%;
+    margin: 5% 5% 5% 5%;
+  }
+
+  .text {
+    text-align: center;
+  }
+  .pics {
+    text-align: center;
+  }
+  .professional {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #607d8b;
+    border-radius: 10px;
+    border: 1px;
+  }
+  .hilight {
+    text-align: center;
+    text-decoration: fuchsia;
+    text-shadow: rgb(241, 240, 255);
+    font-family: "Playfair Display", serif;
+    font-size: 2.3rem;
+    box-shadow: 2px 3px 20px 2px #2c2c2c;
+    border-radius: 10px;
+    border: 1px;
+  }
+  .paragraph1 {
+    text-align: left;
+    color: #2c2c2c;
+    font-family: "Istok Web", sans-serif;
+    padding: 0vw 5vw 5vw 1vw;
+    width: 90%;
+
+    border-radius: 10px;
+  }
+  .paragraph2 {
+    margin: auto;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    color: #2c2c2c;
+    font-family: "Istok Web", sans-serif;
+    padding: 0vw 5vw 2vw 1vw;
+    width: 90%;
+  }
+  .button {
+    background-color:#ffffff;
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+    color: #35eea4;
+    font-family: "Istok Web", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 15;
+    transition: shadow 0.3s linear 0.1s;
+    margin-top: 20%;   
+  }
+ 
+  .writting {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 100%;
+    margin-left: 5%;
+  }
+  .icon-group {
+    margin-top: 1vw;
+    padding-left: 32vw;
+  
+  }
+  .icon-group .icon {
+    
+    width: 6vw;
+  }
+
+  .icon-group .icon:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  
+}
