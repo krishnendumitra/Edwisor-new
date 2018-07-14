@@ -1,0 +1,57 @@
+body {
+  margin: 0%;
+  background-image: url("pic.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: rgb(70, 70, 70);
+}
+
+ul.navbar li {
+  float: left;
+}
+
+ul.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+}
+
+.navbar input[type="text"] {
+  float: right;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .navbar li {
+    text-align: center;
+    background-color: rgb(70, 70, 70);
+    width: 100%;
+    display: inline-block;
+  }
+  ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+  }
+
+  ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+  }
+ 
+}
